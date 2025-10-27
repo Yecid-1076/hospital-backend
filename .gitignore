@@ -1,8 +1,9 @@
-﻿# Django
+# Django
 *.pyc
 __pycache__/
 *.sqlite3
 db.sqlite3
+*.log
 
 # Environment
 .env
@@ -13,13 +14,21 @@ env/
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Static files
 staticfiles/
 media/
 
-# Logs
-*.log
-
 # Database
 *.db
+migrations/*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Django production
+*.pot
+*.mo
